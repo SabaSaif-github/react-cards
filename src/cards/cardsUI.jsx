@@ -10,9 +10,9 @@ const Card = props => {
             <div className="card-body text-dark">
                 <h4 className="card-title">Patricia Lebsack</h4>
                 <p className="card-text text-secondary">@Karianne</p>
-                <a href="#">http://kale.biz</a>
+                <a href="www.nothing.com">http://kale.biz</a>
                 <br></br>
-                <a href="#" className="btn btn-primary">MORE DETAILS</a>
+                <a href="www.nothing.com" className="btn btn-primary">MORE DETAILS</a>
             </div>
         </div>
     );
