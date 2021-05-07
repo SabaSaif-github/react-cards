@@ -4,6 +4,7 @@ body{
 
 .card{
     width:20rem;
+    padding: 1rem;
 }
 
 .card:hover{
@@ -21,4 +22,8 @@ body{
 
 .container-fluid .row{
     padding-top: 6rem;
+}
+
+.d-flex{
+    flex-shrink: 1;
 }
