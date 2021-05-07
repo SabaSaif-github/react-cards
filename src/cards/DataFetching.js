@@ -36,7 +36,7 @@ function DataFetching() {
                             <div className="card-body text-dark">
                                 <h4 className="card-title">{user.name}</h4>
                                 <p className="card-text text-secondary">@{user.username}</p>
-                                <a href={user.website}>{user.website}</a>
+                                <p href={user.website} className="link-primary">{user.website}</p>
                                 <br></br>
                                 <Link to='/details' ><p className="btn btn-primary" onClick={() => setId(user.id)}>MORE DETAILS</p></Link>
                             </div>
